@@ -1,0 +1,96 @@
+.row,
+.col {
+	margin: 0;
+	padding: 0;
+}
+
+.main__image,
+.main__user {
+	height: 95vh;
+	min-width: 50%;
+}
+
+.main__image img {
+	width: 100%;
+	height: 100%;
+}
+
+.main__user {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 2rem;
+}
+
+a,
+a:hover,
+a:visited {
+	text-decoration: none;
+}
+
+.twitter__logo {
+	margin-bottom: 2rem;
+}
+
+.main__title > h1 {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	margin-bottom: 14px;
+	font-size: 3.5rem;
+	font-weight: 800;
+}
+
+.main__subtitle > h1 {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 1.75rem;
+	font-weight: 800;
+}
+
+.main__buttons {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main__signup {
+	font-size: 0.85rem;
+	margin: 1rem 1rem 1rem 0;
+	text-align: center;
+	padding: 0.65rem;
+	cursor: pointer;
+	border-radius: 20px;
+	color: white;
+	font-weight: 700;
+	background-color: rgba(29, 161, 242, 1);
+	border: 1px solid rgb(29, 161, 242, 1);
+	transition: background-color 0.5s ease;
+}
+
+.main__signup:hover {
+	background-color: rgb(13, 143, 224);
+}
+
+.main__login {
+	font-size: 0.85rem;
+	margin: 0 1rem 1rem 0;
+	cursor: pointer;
+	text-align: center;
+	padding: 0.65rem;
+	border-radius: 20px;
+	font-weight: 700;
+	color: rgba(29, 161, 242, 1);
+	transition: background-color 0.5s ease;
+	border: 1px solid rgba(29, 161, 242, 1);
+}
+
+.main__login:hover {
+	background-color: rgb(224, 240, 250);
+}
+
+.main__footer {
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(91, 112, 131);
+	font-size: 14px;
+}

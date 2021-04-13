@@ -1,0 +1,26 @@
+.login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.login__signup {
+	margin: 1rem;
+	color: rgb(27, 149, 224);
+	text-align: center;
+}
+
+.login__logo img {
+	margin: 1rem 0;
+}
+
+.login__form h1 {
+	font-weight: 800;
+}
+
+.btn {
+	width: 100%;
+	border-radius: 20px;
+	background-color: rgba(29, 161, 242, 1);
+}
