@@ -1,0 +1,73 @@
+.home__title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	z-index: 999;
+	border-bottom: 1px solid #eee;
+	background-color: white;
+}
+
+.home__title > h5 {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.star {
+	height: 30px;
+	cursor: pointer;
+}
+
+.star path {
+	fill: rgba(29, 161, 242, 1);
+}
+
+.gray {
+	height: 10px;
+	border-bottom: 1px solid #eee;
+	background-color: rgb(235, 238, 240);
+}
+
+.home__post {
+	display: flex;
+	border-bottom: 1px solid #eee;
+	padding: 14px;
+}
+
+.post__tweet {
+	padding-left: 10px;
+	width: 100%;
+}
+
+.post__input > textarea {
+	width: 100%;
+	font-size: 1.5rem;
+	outline: none;
+	border: none;
+}
+
+.post__dp > img {
+	height: 50px;
+	border-radius: 50%;
+}
+
+.post__handles {
+	display: flex;
+	width: 100%;
+}
+
+.post__handles > svg {
+	height: 1.75rem;
+	cursor: pointer;
+}
+
+.post__handles svg path,
+.post__handles svg circle {
+	fill: rgba(29, 161, 242, 1);
+}
+
+.post__tweetBtm {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

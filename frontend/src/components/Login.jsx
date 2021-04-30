@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import firebase from "../config";
 import "./Login.css";
@@ -6,6 +6,10 @@ import "./Login.css";
 function Login() {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
+
+	useEffect(() => {
+		document.title = "Login on Twitter / Twitter";
+	}, []);
 
 	const handleOnSubmit = (e) => {
 		e.preventDefault();
